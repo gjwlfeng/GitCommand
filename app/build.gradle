@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
-    id 'io.github.gjwlfeng.versionlogging'
+    id 'io.github.gjwlfeng.version-logging'
+    id 'io.github.gjwlfeng.git-command'
 }
 
 android {
@@ -39,9 +40,9 @@ tasks.withType(JavaCompile) {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -49,10 +50,10 @@ dependencies {
 
 vLogConfig {
     //工作目录,写绝对路径，不要写相对路径
-    vLogWorkDir = project.file("version-loggging")
+    vLogWorkDir = project.file("logging-version")
 
     //项目日志
-    changedLogFile = project.file("version-loggging/changed_log.txt")
+    changedLogFile = project.file("logging-version/changed_log.txt")
 
     //版本日志记录
     logInfo {
@@ -64,5 +65,20 @@ vLogConfig {
         //添加额外信息
         addExtraInfo "key1", "value1"
         addExtraInfo "key2", "value2"
+    }
+}
+
+gitConfig {
+    //当前版本名称 ,git commit ,git tag 都会用到
+    versionName "1.1.0"
+    //可选参数。版本号
+    versionCode 1
+    changedLogFile= project.file("logging-git.txt")
+    workDirFile = project.rootProject.projectDir
+    repositories {
+        origin {
+            repoName "23"
+        }
+        gitee  {}
     }
 }

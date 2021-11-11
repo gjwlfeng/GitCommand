@@ -11,12 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ParamInit-compiler" />
-            <option value="$PROJECT_DIR$/ParamInit-lib-adapter" />
-            <option value="$PROJECT_DIR$/ParamInit-lib-core" />
-            <option value="$PROJECT_DIR$/ParamInit-lib-v4" />
-            <option value="$PROJECT_DIR$/ParamInit-lib-view-model" />
-            <option value="$PROJECT_DIR$/ParamInit-lib-x" />
+            <option value="$PROJECT_DIR$/GitCommand" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -1,2 +1,2 @@
-rootProject.name = "ParamInit"
-include ':app',"ParamInit-lib-core","ParamInit-compiler","ParamInit-lib-adapter","ParamInit-lib-v4","ParamInit-lib-view-model","ParamInit-lib-x"
+rootProject.name = "GitCommand"
+include ':app',"GitCommand"

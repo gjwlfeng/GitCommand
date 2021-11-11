@@ -1,0 +1,19 @@
+gitConfig {
+    //当前版本名称 ,git commit ,git tag 都会用到
+    versionName "1.1.0"
+    //可选参数。版本号
+    versionCode 1
+    //git commit 提交日志
+    changedLogFile new File("E:\\XXXXX\\log.txt")
+    //可选参数。git命令当前的运行的目录，默认为项目的根目录(`project.getRootDir().absolutePath`)
+    workDirFile new File("E:\\workspace\\XXXXXX\\GitProject")
+    //可选参数。远程仓储名称集合，默认名称为origin,如果设置当前参数则不存在仓库名‘origin’. 远程仓储名是通过命令 `git remote add Hello http://wwww.baidu.com/Hello.git` 所添加的， Hello就是远程仓库名
+    repositories {
+        gitee {
+            //可选项，可指定远程仓库名
+            repoName "origin"
+        }
+        github {}
+        origin {}
+    }
+}
