@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fbffd700e39a025b8e6b37737fe15141/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/134a266c8214399b7a640ed8c57776c9/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/87971f1d389ed149d0fe2fb585115bb2/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/d109015162ea1b9fa5bed39e6282808b/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ea1ccd7c55c79b1ce877deb8e3e0e950/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/57b35196d42274097b07f4c6d6b86aa8/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/234e51b2cad3fcc1ee1b71872c28698e/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ee7a30ceb09d3bc3ee24969f252a46e9/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/16e82b25361ac9f0437d6b9f263653e1/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/590f0d8181eb08042537138449c95724/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5b891acf4028be601210ff84d5a4e6af/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/568f7483c62d0a305b50b1148a4bcaaa/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/b4e02c13c513922fbf89ae61433059a9/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/f1d3a8f1bebe2626df639cf656d963fe/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5116a19c87bd5f054bf5c0c2344c11ec/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a907524fdafa5d449abf7573789a6de7/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/1e0329672a62f1791e7e47fadfeccf16/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/dd2c4107087a3d853f2d82c46f9b51e4/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/cecee5aaefb3aa596e1bb4fc27d082a8/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12877d610dbfe46812d81ac5f7aec9ce/lifecycle-livedata-core-2.3.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12877d610dbfe46812d81ac5f7aec9ce/lifecycle-livedata-core-2.3.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/12877d610dbfe46812d81ac5f7aec9ce/lifecycle-livedata-core-2.3.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.3.1/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

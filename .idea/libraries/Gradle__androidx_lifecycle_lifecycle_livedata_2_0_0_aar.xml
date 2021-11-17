@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/70acfa7402de2db58d861174d5390624/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/1697ffc6f80ad821c0a18356727c16e7/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/3ba253cb12130514718d21b086b84a17/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/591f01338120d68c7b22f07335a7a104/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/e48edefbbb6059224e70ea32050e2ee5/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ac618d13bb309fdd20c6567442f7eeed/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9d3d92200729db64a64d87795ea8fbd8/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/dc5a87c9d1d2878cd9f011a7a9c06a09/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/201bbf62f58add7f007326404626e0a8/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bd026fd8931b1fc5666e0d33f6230876/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/aa522ddfc2f3006d2b0e967a7da05dbb/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ee6dbdc06894c794056912414f598e2a/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/67de3f04f261b7643ae09b5f16eaf86f/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/93a3833169da5a3e006fd3b14230e72c/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/77cda61c9e72d9b3af279d1c7efbf79c/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/e5d6872fc3b9780f13baf0b89af9add3/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/3f79394900421d46bd81930d53215a54/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/e2794e6ec02ef8d8016e6511c726de64/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9f86d48605330efcfe83189473b78d4e/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/afb3e4c1978f1592b0120fc2a0303ea0/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/534f2ffd41b21c728ab3fdcfa42243a9/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/6437f7bb4f4474c9664fafc51e0b8f82/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/f6d31584146fa1b93c546573c7515d87/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/7080ad27f251fbc0fae106126d93a3b7/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/36f3d9fcd7aa2a1293227bdc5c066e5d/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/60911d2550bf62fc26702c56eb39e226/lifecycle-livedata-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fc4db29685e53436430421cbdc116379/lifecycle-livedata-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fc4db29685e53436430421cbdc116379/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fc4db29685e53436430421cbdc116379/lifecycle-livedata-2.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

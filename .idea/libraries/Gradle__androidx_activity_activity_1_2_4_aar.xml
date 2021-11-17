@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.2.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9f2ad232fcad53eb4a8f27818041fb12/activity-1.2.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/e0e1fa2e14ad4ac92566607e08a6050a/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bc7d70839e4d70d0882a8ef55d0e7d38/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/50e88859ce45b06887cb6736d8fe8da0/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5e38bc8d85f6639aadd214d53f9355e8/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/3d04dd28ba3f7e8322fc984ba6b00811/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/89cf2f9400bdf0c8a95888c225aa9b0d/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ba78514356c4dca5990c0956c0387492/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/f7cfeeea92dd7535f7546ce012643b93/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/dbc8ad4fd66b0592dd683a12a95b84f5/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/ce7b0965b3b56602e722e67f9f64886e/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/75840053752e5f7255aa15da6b7a2faf/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/c77696b6ff9c6ad8bd3f7fb63a00e197/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/58e0f558b71ebaf3358531b82fd1c3d3/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/925fac1ced65e6bdd77b33aa2c707f17/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/7a741fdc7d9d25954fcddcabb310ce6d/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/1d631a87e891fc9c1601caaa7555d2e4/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/92ff5d7c5107e8e3ed1bf1476662a69f/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/46925645c5ae2630e3edaf6eb3ad7e09/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9aadf99ca922a837650f1eb6b0f00d46/activity-1.2.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9f2ad232fcad53eb4a8f27818041fb12/activity-1.2.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9f2ad232fcad53eb4a8f27818041fb12/activity-1.2.4/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/9f2ad232fcad53eb4a8f27818041fb12/activity-1.2.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.activity/activity/1.2.4/2572345ff3e71e4e97140b01423cb80765b5b3e5/activity-1.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

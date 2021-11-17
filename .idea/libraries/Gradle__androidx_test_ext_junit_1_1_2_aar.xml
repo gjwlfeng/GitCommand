@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.ext:junit:1.1.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/8fd603c828e126bbf56953834e813ffa/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/8ccfbc3a2d0bcf2d84a9dd04b01a03fb/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/d3a3854215adb18d1980ec1288bd55ee/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bbca6c87551ade6355ece9cde8aa4f72/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/1732276d6d55616b7864089f59317f25/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/88cdd347dfb66c1640dbfc023ae0f096/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/4dab0dcfe2eb51d7db249dfe95b5f509/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/43b0d043d4ed2a6f7a3568e28016ed67/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/92ecc8545fc6440701e2b95da3f5c870/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/50e3b85a1ad7ac2ec69df7e57d95deb2/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/6140b385a03496a9f9064a143c9cd6a4/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a9437fc0eb60bf072418e374073cd394/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/66cf081c77354202ca0e752365ea00f0/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/c2f5a02bd18fedcb7b039c896bacd6e6/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bcb7d8a4f2ede35ed323a2383daa4747/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/986a88f679eedc75c97a9ebd40b889c2/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/55368ea37b21d73407402491cd25ee09/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/c270b82195409f65c78bf863e7431fa3/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/69470d66797bb4036816a188bc13b1b6/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/c539fda1ce91a36b1d2c563576371090/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/4829eb10a839df199210ccef37703c67/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5fcb7531457d01db4db08b33605a801f/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/71cc85d0509f7d0361224451a5749011/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/00eddac2fa814a9d34d3c8a386561ae4/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/33d6f6be9d964afc37df30b00d129001/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/d111d69de75a7ef5a5ec94500d5d5f56/junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/24e51045eaf7e4eebb329b049802068e/junit-1.1.2/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/24e51045eaf7e4eebb329b049802068e/junit-1.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/24e51045eaf7e4eebb329b049802068e/junit-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/c69cad63303f01767122a49e379c6121d6721a0b/junit-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/d8ceef67c64321bbf484dc5997a1d2efa319bed7/junit-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

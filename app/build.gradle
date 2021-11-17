@@ -73,10 +73,9 @@ gitConfig {
     versionName "1.1.0"
     //可选参数。版本号
     versionCode 1
-    changedLogFile= project.file("logging-git.txt")
+    changedLogFile = project.file("logging-git.txt")
     workDirFile = project.rootProject.projectDir
     repositories {
         origin {}
-        gitee  {}
     }
 }
