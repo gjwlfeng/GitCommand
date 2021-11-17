@@ -20,17 +20,17 @@ import org.gradle.api.tasks.TaskAction
 class GitCommitTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+   final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final  Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final  Property<Integer> versionCode = project.objects.property(Integer)
 
     @TaskAction
     void action() {
@@ -166,7 +166,7 @@ class GitCommitTask extends DefaultTask {
                 throw new GradleException("Please execute the \"git init\" command to initialize the directory first.")
             }
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
 
         def configVersionName(GitCommitTask task) {

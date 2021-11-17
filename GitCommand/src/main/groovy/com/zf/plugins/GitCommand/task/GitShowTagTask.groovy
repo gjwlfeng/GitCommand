@@ -64,7 +64,7 @@ import org.gradle.api.tasks.TaskAction
             }
 
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
     }
 }

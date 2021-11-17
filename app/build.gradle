@@ -76,9 +76,7 @@ gitConfig {
     changedLogFile= project.file("logging-git.txt")
     workDirFile = project.rootProject.projectDir
     repositories {
-        origin {
-            repoName "23"
-        }
+        origin {}
         gitee  {}
     }
 }

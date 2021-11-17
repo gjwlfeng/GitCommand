@@ -161,7 +161,7 @@ class GitDelTagTask extends DefaultTask {
             }
 
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
 
 

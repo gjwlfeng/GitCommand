@@ -15,7 +15,7 @@ import org.gradle.api.tasks.TaskAction
 class GitAddTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @TaskAction
     void action() {
@@ -34,7 +34,7 @@ class GitAddTask extends DefaultTask {
         }
     }
 
-     static class CreationAction implements Action<GitAddTask> {
+    static class CreationAction implements Action<GitAddTask> {
 
         GitConfig config
 
@@ -57,7 +57,7 @@ class GitAddTask extends DefaultTask {
                 throw new GradleException("Git working directory does not exist，workDirFile=${workDirFile.absolutePath}")
             }
 
-            if(!workDirFile.isDirectory()){
+            if (!workDirFile.isDirectory()) {
                 throw new GradleException("The working directory must be a folder")
             }
 
@@ -66,7 +66,7 @@ class GitAddTask extends DefaultTask {
                 throw new GradleException("Please execute the \"git init\" command to initialize the directory first.")
             }
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
     }
 

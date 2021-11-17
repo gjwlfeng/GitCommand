@@ -220,7 +220,7 @@ class GitTagTask extends DefaultTask {
                 throw new GradleException("Please execute the \"git init\" command to initialize the directory first.")
             }
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
 
 

@@ -82,10 +82,6 @@ class GitPullTask extends DefaultTask {
 
     def checkRepositoryName() {
 
-        if (repository.get() == null || repository.get().trim().length() == 0) {
-            throw new GradleException("repository name cannot be empty")
-        }
-
         String cmd = 'git remote'
 
         project.logger.quiet(cmd)
@@ -161,7 +157,7 @@ class GitPullTask extends DefaultTask {
                 throw new GradleException("Please execute the \"git init\" command to initialize the directory first.")
             }
 
-            task.workDirFile.set(workDirFile)
+            task.workDirFile.fileValue(workDirFile)
         }
     }
 
