@@ -12,7 +12,7 @@ import org.gradle.api.tasks.TaskAction
  class GitShowStatusTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
 
     @TaskAction

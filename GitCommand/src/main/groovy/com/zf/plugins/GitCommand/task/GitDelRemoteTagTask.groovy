@@ -10,6 +10,7 @@ import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.TaskAction
 
@@ -19,17 +20,17 @@ import org.gradle.api.tasks.TaskAction
 class GitDelRemoteTagTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @Input
     @Optional
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final  Property<String> versionName = project.objects.property(String)
 
     @Input
-    Property<Repository> repository = project.objects.property(Repository)
+    final Property<Repository> repository = project.objects.property(Repository)
 
 
     /**
@@ -37,7 +38,7 @@ class GitDelRemoteTagTask extends DefaultTask {
      * @param tagName
      * @return
      */
-    def deleteRemoteTag(String tagName) {
+    private int deleteRemoteTag(String tagName) {
 
         String cmd = "git push ${getRepoName()} :refs/tags/${tagName}"
 
@@ -52,7 +53,7 @@ class GitDelRemoteTagTask extends DefaultTask {
         return exeResult.exitValue
     }
 
-    def getRepoName() {
+    private String getRepoName() {
         def repo = repository.get()
         def repoName = repo.name
         if (repo.repoName != null && repo.repoName.trim().length() > 0) {
@@ -73,7 +74,8 @@ class GitDelRemoteTagTask extends DefaultTask {
         }
     }
 
-    String getTagName() {
+
+    private String getTagName() {
         def versionCode = this.versionCode.getOrNull()
         if (versionCode != null) {
             return "v${versionName.get().toString()}-${versionCode}"
@@ -81,7 +83,7 @@ class GitDelRemoteTagTask extends DefaultTask {
         return "v${versionName.get().toString()}"
     }
 
-    def checkRepositoryName() {
+    private void checkRepositoryName() {
 
         String cmd = 'git remote'
 

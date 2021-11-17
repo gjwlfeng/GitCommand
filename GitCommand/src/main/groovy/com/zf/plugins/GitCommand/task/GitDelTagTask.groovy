@@ -11,6 +11,7 @@ import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
 import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.TaskAction
 
@@ -20,17 +21,17 @@ import org.gradle.api.tasks.TaskAction
 class GitDelTagTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Input
     @Optional
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @TaskAction
     void action() {
@@ -52,7 +53,7 @@ class GitDelTagTask extends DefaultTask {
     }
 
 
-    String getTagName() {
+    private String getTagName() {
         def versionCode = this.versionCode.getOrNull()
         if (versionCode != null) {
             return "v${versionName.get().toString()}-${versionCode}"
@@ -64,7 +65,7 @@ class GitDelTagTask extends DefaultTask {
      * 判断是否存在指定tag
      * @return
      */
-    boolean exits(String tagName) {
+    private boolean exits(String tagName) {
 
         String cmd = "git tag -l ${tagName}"
         project.logger.quiet(cmd)
@@ -90,7 +91,7 @@ class GitDelTagTask extends DefaultTask {
      * @param tagName
      * @return
      */
-    def deleteLocalTag(String tagName) {
+    private int deleteLocalTag(String tagName) {
 
         String cmd = "git tag -d ${tagName}"
         project.logger.quiet(cmd)
@@ -105,7 +106,7 @@ class GitDelTagTask extends DefaultTask {
         return exeResult.exitValue
     }
 
-     static class CreationAction implements Action<GitDelTagTask> {
+    static class CreationAction implements Action<GitDelTagTask> {
 
         GitConfig config
 
@@ -151,7 +152,7 @@ class GitDelTagTask extends DefaultTask {
                 throw new GradleException("Git working directory does not exist，workDirFile=${workDirFile.absolutePath}")
             }
 
-            if(!workDirFile.isDirectory()){
+            if (!workDirFile.isDirectory()) {
                 throw new GradleException("The working directory must be a folder")
             }
 

@@ -1,6 +1,6 @@
 # GitCommand
-[ ![Download](https://api.bintray.com/packages/zf/maven/GitCommand/images/download.svg) ](https://github.com/903600017/ApkSign/release)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/903600017/GitCommand/master/LICENSE)
+[ ![Download](https://api.bintray.com/packages/zf/maven/GitCommand/images/download.svg) ](https://github.com/gjwlfeng/ApkSign/release)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/gjwlfeng/GitCommand/master/LICENSE)
 
 
 
@@ -43,13 +43,21 @@ gitConfig {
     //可选参数。git命令当前的运行的目录，默认为项目的根目录(`project.getRootDir().absolutePath`)
     workDirFilePath new File("E:\\workspace\\XXXXXX\\GitProject").absolutePath
     //可选参数。远程仓储名称集合，默认名称为origin,如果设置当前参数则不存在仓库名‘origin’. 远程仓储名是通过命令 `git remote add Hello http://wwww.baidu.com/Hello.git` 所添加的， Hello就是远程仓库名
-    repositoryNames 'gitee','github','origin'
+    repositories {
+    //定义 remote name
+        gitee{
+            // 可选，修改remote name
+            repoName "12"
+        }
+        github{}
+        origin{}
+    } 
 }
 ```
 	
 **gitCommand插件命令：**
 
-![GitCommand插件 gradle命令](https://raw.githubusercontent.com/903600017/GitCommand/master/pic/gradle_git_command.png)
+![GitCommand插件 gradle命令](https://raw.githubusercontent.com/gjwlfeng/GitCommand/master/pic/gradle_git_command.png)
 
  
  如上面的图片所示的gradle命令

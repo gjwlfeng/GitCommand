@@ -10,6 +10,7 @@ import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.TaskAction
 
 /**
@@ -18,10 +19,10 @@ import org.gradle.api.tasks.TaskAction
 class GitPullTask extends DefaultTask {
 
     @Input
-    Property<Repository> repository = project.objects.property(Repository)
+    final Property<Repository> repository = project.objects.property(Repository)
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @TaskAction
     void action() {
@@ -46,7 +47,7 @@ class GitPullTask extends DefaultTask {
         }
     }
 
-    def getRepoName() {
+    private String getRepoName() {
         def repo = repository.get()
         def repoName = repo.name
         if (repo.repoName != null && repo.repoName.trim().length() > 0) {
@@ -55,7 +56,7 @@ class GitPullTask extends DefaultTask {
         return repoName
     }
 
-    def getCurBranchName() {
+    private String getCurBranchName() {
 
         String cmd = 'git rev-parse --abbrev-ref HEAD'
         project.logger.quiet(cmd)
@@ -80,7 +81,8 @@ class GitPullTask extends DefaultTask {
         }
     }
 
-    def checkRepositoryName() {
+
+    private String checkRepositoryName() {
 
         String cmd = 'git remote'
 

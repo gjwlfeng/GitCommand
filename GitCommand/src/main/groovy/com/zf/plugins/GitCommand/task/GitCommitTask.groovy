@@ -11,6 +11,7 @@ import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
 import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.TaskAction
 
@@ -23,14 +24,14 @@ class GitCommitTask extends DefaultTask {
     final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @InputFile
-   final RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @Input
-    final  Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    final  Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @TaskAction
     void action() {
@@ -51,7 +52,7 @@ class GitCommitTask extends DefaultTask {
         }
     }
 
-    boolean isNeedCommit() {
+    private boolean isNeedCommit() {
 
         ByteArrayOutputStream bos = new ByteArrayOutputStream()
 
@@ -73,10 +74,9 @@ class GitCommitTask extends DefaultTask {
         }
 
         return content.contains('nothing to commit')
-
     }
 
-    def getLog() {
+    private List<String> getLog() {
         def logs = []
 
         int startNum = -1
@@ -96,7 +96,8 @@ class GitCommitTask extends DefaultTask {
         return logs
     }
 
-    String getTagName() {
+
+    private String getTagName() {
         def versionCode = this.versionCode.getOrNull()
         if (versionCode != null) {
             return "v${versionName.get().toString()}-${versionCode}"
@@ -104,7 +105,8 @@ class GitCommitTask extends DefaultTask {
         return "v${versionName.get().toString()}"
     }
 
-    def getCommitCommand() {
+
+    private String getCommitCommand() {
         def changes = ""
 
         def lines = getLog()
@@ -118,7 +120,7 @@ class GitCommitTask extends DefaultTask {
     }
 
 
-     static class CreationAction implements Action<GitCommitTask> {
+    static class CreationAction implements Action<GitCommitTask> {
 
         GitConfig config
 
@@ -157,7 +159,7 @@ class GitCommitTask extends DefaultTask {
                 throw new GradleException("Git working directory does not exist，workDirFile=${workDirFile.absolutePath}")
             }
 
-            if(!workDirFile.isDirectory()){
+            if (!workDirFile.isDirectory()) {
                 throw new GradleException("The working directory must be a folder")
             }
 

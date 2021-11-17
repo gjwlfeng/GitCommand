@@ -16,17 +16,17 @@ import org.gradle.api.tasks.*
 class GitTagTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final Property<Integer> versionCode = project.objects.property(Integer)
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     @TaskAction
     void action() {
@@ -51,7 +51,7 @@ class GitTagTask extends DefaultTask {
         }
     }
 
-    String getTagName() {
+    private String getTagName() {
         def versionCode = this.versionCode.getOrNull()
         if (versionCode != null) {
             return "v${versionName.get().toString()}-${versionCode}"
@@ -63,7 +63,7 @@ class GitTagTask extends DefaultTask {
      * 备注
      * @return
      */
-    static String getRemark(def logs) {
+    private static String getRemark(def logs) {
         def changes = ""
         logs.eachWithIndex { log, index ->
             changes += "${log} "
@@ -71,7 +71,7 @@ class GitTagTask extends DefaultTask {
         return changes
     }
 
-    def getLog() {
+    private List<String> getLog() {
         def logs = []
 
         int startNum = -1
@@ -95,7 +95,7 @@ class GitTagTask extends DefaultTask {
      * 判断是否存在指定tag
      * @return
      */
-    boolean exits(String tagName) {
+    private boolean exits(String tagName) {
 
         String cmd = "git tag -l ${tagName}"
         project.logger.quiet(cmd)
@@ -121,7 +121,7 @@ class GitTagTask extends DefaultTask {
      * @param tagName
      * @return
      */
-    def createTag(String tagName, String remark) {
+    private int createTag(String tagName, String remark) {
 
         def cmd = "git tag -a ${tagName} -m \"${remark}\""
 
@@ -142,7 +142,7 @@ class GitTagTask extends DefaultTask {
      * @param tagName
      * @return
      */
-    def deleteLocalTag(String tagName) {
+    private int deleteLocalTag(String tagName) {
 
         String cmd = "git tag -d ${tagName}"
         project.logger.quiet(cmd)
@@ -157,7 +157,7 @@ class GitTagTask extends DefaultTask {
         return exeResult.exitValue
     }
 
-     static class CreationAction implements Action<GitTagTask> {
+    static class CreationAction implements Action<GitTagTask> {
 
         GitConfig config
 
@@ -173,7 +173,7 @@ class GitTagTask extends DefaultTask {
             configVersionCode(task)
         }
 
-        def  configVersionName(GitTagTask task) {
+        def configVersionName(GitTagTask task) {
             def versionName = config.versionName
             if (versionName == null) {
                 throw new IllegalArgumentException("\"versionName\" cannot be empty")
@@ -211,7 +211,7 @@ class GitTagTask extends DefaultTask {
                 throw new GradleException("Git working directory does not exist，workDirFile=${workDirFile.absolutePath}")
             }
 
-            if(!workDirFile.isDirectory()){
+            if (!workDirFile.isDirectory()) {
                 throw new GradleException("The working directory must be a folder")
             }
 

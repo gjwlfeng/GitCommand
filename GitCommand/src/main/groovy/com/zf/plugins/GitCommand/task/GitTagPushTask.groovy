@@ -12,6 +12,7 @@ import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
 import org.gradle.api.tasks.InputFile
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.Optional
 import org.gradle.api.tasks.TaskAction
 
@@ -21,27 +22,27 @@ import org.gradle.api.tasks.TaskAction
 class GitTagPushTask extends DefaultTask {
 
     @InputDirectory
-    DirectoryProperty workDirFile = project.objects.directoryProperty()
+    final DirectoryProperty workDirFile = project.objects.directoryProperty()
 
     @Input
-    Property<String> versionName = project.objects.property(String)
+    final Property<String> versionName = project.objects.property(String)
 
     @Optional
     @Input
-    Property<Integer> versionCode = project.objects.property(Integer)
+    final  Property<Integer> versionCode = project.objects.property(Integer)
 
     @Input
-    Property<Repository> repository = project.objects.property(Repository)
+    final Property<Repository> repository = project.objects.property(Repository)
 
     @InputFile
-    RegularFileProperty changedLogFile = project.objects.fileProperty()
+    final RegularFileProperty changedLogFile = project.objects.fileProperty()
 
     /**
      * 删除 远程tag
      * @param tagName
      * @return
      */
-    def deleteRemoteTag(String tagName) {
+    private int deleteRemoteTag(String tagName) {
         String cmd = "git push ${repositoryName.get().trim()} :refs/tags/${tagName}"
         project.logger.quiet(cmd)
 
@@ -80,7 +81,7 @@ class GitTagPushTask extends DefaultTask {
         }
     }
 
-    String getTagName() {
+    private String getTagName() {
         def versionCode = this.versionCode.getOrNull()
         if (versionCode != null) {
             return "v${versionName.get().toString()}-${versionCode}"
@@ -90,7 +91,7 @@ class GitTagPushTask extends DefaultTask {
 
 
 
-    def getRepoName() {
+    private String getRepoName() {
         def repo = repository.get()
         def repoName = repo.name
         if (repo.repoName != null && repo.repoName.trim().length() > 0) {
@@ -99,7 +100,7 @@ class GitTagPushTask extends DefaultTask {
         return repoName
     }
 
-    def checkRepositoryName() {
+    private void checkRepositoryName() {
         String cmd = 'git remote'
 
         project.logger.quiet(cmd)
