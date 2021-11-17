@@ -1,5 +1,4 @@
 # GitCommand
-[ ![Download](https://api.bintray.com/packages/zf/maven/GitCommand/images/download.svg) ](https://github.com/gjwlfeng/ApkSign/release)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/gjwlfeng/GitCommand/master/LICENSE)
 
 
@@ -57,7 +56,7 @@ gitConfig {
 	
 **gitCommand插件命令：**
 
-![GitCommand插件 gradle命令](https://raw.githubusercontent.com/gjwlfeng/GitCommand/master/pic/gradle_git_command.png)
+![GitCommand插件 gradle命令](https://raw.githubusercontent.com/gjwlfeng/GitCommand/master/GitCommand/pic/gradle_git_command.png)
 
  
  如上面的图片所示的gradle命令
