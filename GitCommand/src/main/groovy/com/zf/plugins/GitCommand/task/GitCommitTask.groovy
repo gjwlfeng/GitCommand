@@ -112,7 +112,7 @@ class GitCommitTask extends DefaultTask {
         def lines = getLog()
 
         lines.eachWithIndex { log, index ->
-            changes += "${log.replaceAll("\"", "\\\"")} "
+            changes += "${log.replaceAll("\"", "\\\\\"")} "
         }
         def remark = "${getTagName()} ${changes}"
 
