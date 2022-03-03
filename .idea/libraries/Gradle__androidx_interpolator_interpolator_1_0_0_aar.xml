@@ -31,9 +31,10 @@
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/da78759db298c548de77b63f98a9213c/interpolator-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/da78759db298c548de77b63f98a9213c/interpolator-1.0.0/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/6b3b42e149d3feab23be4c3b39516074/interpolator-1.0.0/res" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/0a932f70c8eead6633dbca7001af9927/interpolator-1.0.0/AndroidManifest.xml" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/0a932f70c8eead6633dbca7001af9927/interpolator-1.0.0/jars/classes.jar!/" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/0a932f70c8eead6633dbca7001af9927/interpolator-1.0.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/8cce86be09bce4cf37492d4158be2af9/interpolator-1.0.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/8cce86be09bce4cf37492d4158be2af9/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/8cce86be09bce4cf37492d4158be2af9/interpolator-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -32,8 +32,9 @@
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bf208d132b29f2cc6713549f1f65e298/core-runtime-2.0.0/AndroidManifest.xml" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/be3428800e99f8a3d636fea4ce3b177c/core-runtime-2.0.0/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/3d391b525ef3101db9317d09cbc273cf/core-runtime-2.0.0/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/3d391b525ef3101db9317d09cbc273cf/core-runtime-2.0.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/3d391b525ef3101db9317d09cbc273cf/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/50f15ce5ffa4df7afbe1c931ff1a34b6/core-runtime-2.0.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/50f15ce5ffa4df7afbe1c931ff1a34b6/core-runtime-2.0.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/50f15ce5ffa4df7afbe1c931ff1a34b6/core-runtime-2.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

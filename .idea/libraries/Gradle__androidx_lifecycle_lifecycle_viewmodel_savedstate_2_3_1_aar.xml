@@ -25,8 +25,9 @@
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/bfa4ab9057c04d2e305fd4eb464b1a7e/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/aaaa8e3a539a55ba256c631b8b9f736e/lifecycle-viewmodel-savedstate-2.3.1/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/a29d5a0b7a28d56033d5db642a4c9174/lifecycle-viewmodel-savedstate-2.3.1/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/a29d5a0b7a28d56033d5db642a4c9174/lifecycle-viewmodel-savedstate-2.3.1/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/a29d5a0b7a28d56033d5db642a4c9174/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/d16885a1b9b82414c757f2618af07753/lifecycle-viewmodel-savedstate-2.3.1/jars/classes.jar!/" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/d16885a1b9b82414c757f2618af07753/lifecycle-viewmodel-savedstate-2.3.1/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/d16885a1b9b82414c757f2618af07753/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

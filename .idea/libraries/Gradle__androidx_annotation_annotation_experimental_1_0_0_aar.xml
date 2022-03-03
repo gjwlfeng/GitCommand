@@ -31,9 +31,10 @@
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/515fdcabe516f39516cf7ad7a8fa9bae/annotation-experimental-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/515fdcabe516f39516cf7ad7a8fa9bae/annotation-experimental-1.0.0/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/0106de39862b94540d1794f6ebc4c38b/annotation-experimental-1.0.0/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/b97370587d183fdfbdcf5fa307d4a211/annotation-experimental-1.0.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/b97370587d183fdfbdcf5fa307d4a211/annotation-experimental-1.0.0/AndroidManifest.xml" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/b97370587d183fdfbdcf5fa307d4a211/annotation-experimental-1.0.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/841bc8a7fac8c4d170d48ec7f0a82352/annotation-experimental-1.0.0/AndroidManifest.xml" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/841bc8a7fac8c4d170d48ec7f0a82352/annotation-experimental-1.0.0/res" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/841bc8a7fac8c4d170d48ec7f0a82352/annotation-experimental-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
