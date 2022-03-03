@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.core:core:1.5.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fa77c3e054ce196bb30a57f1628a35ec/core-1.5.0/annotations.zip!/" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/6436b63faa651354725acc3edc14dcd5/core-1.5.0/annotations.zip!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/534fedc4745909dd980912feb1be56ad/core-1.5.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fa77c3e054ce196bb30a57f1628a35ec/core-1.5.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fa77c3e054ce196bb30a57f1628a35ec/core-1.5.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/fa77c3e054ce196bb30a57f1628a35ec/core-1.5.0/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/6436b63faa651354725acc3edc14dcd5/core-1.5.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/6436b63faa651354725acc3edc14dcd5/core-1.5.0/res" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/6436b63faa651354725acc3edc14dcd5/core-1.5.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/534fedc4745909dd980912feb1be56ad/core-1.5.0/jars/classes.jar!/" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/534fedc4745909dd980912feb1be56ad/core-1.5.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/534fedc4745909dd980912feb1be56ad/core-1.5.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
