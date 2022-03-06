@@ -43,7 +43,7 @@ class GitTagPushTask extends DefaultTask {
      * @return
      */
     private int deleteRemoteTag(String tagName) {
-        String cmd = "git push ${repositoryName.get().trim()} :refs/tags/${tagName}"
+        String cmd = "git push ${getRepoName()} :refs/tags/${tagName}"
         project.logger.quiet(cmd)
 
         def exeResult = project.exec {

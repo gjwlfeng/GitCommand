@@ -2,7 +2,7 @@
   <library name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/19e479e7ebe2457a5d4af328e6242441/drawerlayout-1.0.0/annotations.zip!/" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/fd7c841cafd1f61b2456eeae98a2a2af/drawerlayout-1.0.0/annotations.zip!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/1eda3a52a8ea310b152ac94dd4403f23/drawerlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a77a1449b9ec68cebe4dc3afb6d84ead/drawerlayout-1.0.0/res" />
@@ -37,8 +37,9 @@
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/19b490bf3ef1f56de2240d19c8bca2b4/drawerlayout-1.0.0/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/1fd25a7e98d9135c5ff1e0e58fdafb54/drawerlayout-1.0.0/res" />
       <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/fd7c841cafd1f61b2456eeae98a2a2af/drawerlayout-1.0.0/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/fd7c841cafd1f61b2456eeae98a2a2af/drawerlayout-1.0.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/fd7c841cafd1f61b2456eeae98a2a2af/drawerlayout-1.0.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/1eda3a52a8ea310b152ac94dd4403f23/drawerlayout-1.0.0/jars/classes.jar!/" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/1eda3a52a8ea310b152ac94dd4403f23/drawerlayout-1.0.0/AndroidManifest.xml" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/1eda3a52a8ea310b152ac94dd4403f23/drawerlayout-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.transition:transition:1.2.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a94e636277c74f3e88b1c7b082ff5112/transition-1.2.0/annotations.zip!/" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/cf40668d1108b76db45bfc2e23d5ed55/transition-1.2.0/annotations.zip!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/77a3f09a2505c42fa4303bbc02b45636/transition-1.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a94e636277c74f3e88b1c7b082ff5112/transition-1.2.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a94e636277c74f3e88b1c7b082ff5112/transition-1.2.0/res" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/a94e636277c74f3e88b1c7b082ff5112/transition-1.2.0/AndroidManifest.xml" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/cf40668d1108b76db45bfc2e23d5ed55/transition-1.2.0/AndroidManifest.xml" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/cf40668d1108b76db45bfc2e23d5ed55/transition-1.2.0/res" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/cf40668d1108b76db45bfc2e23d5ed55/transition-1.2.0/jars/classes.jar!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/77a3f09a2505c42fa4303bbc02b45636/transition-1.2.0/jars/classes.jar!/" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/77a3f09a2505c42fa4303bbc02b45636/transition-1.2.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/77a3f09a2505c42fa4303bbc02b45636/transition-1.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

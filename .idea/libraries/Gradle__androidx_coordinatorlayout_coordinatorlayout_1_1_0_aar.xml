@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5d2d37a2260ccf9ac90457d98e52b1a6/coordinatorlayout-1.1.0/annotations.zip!/" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2e3d3d232f7082ccc018570fb3d76c22/coordinatorlayout-1.1.0/annotations.zip!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2783413d17b9f8713afd2ebc327ccee3/coordinatorlayout-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5d2d37a2260ccf9ac90457d98e52b1a6/coordinatorlayout-1.1.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5d2d37a2260ccf9ac90457d98e52b1a6/coordinatorlayout-1.1.0/res" />
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/5d2d37a2260ccf9ac90457d98e52b1a6/coordinatorlayout-1.1.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2e3d3d232f7082ccc018570fb3d76c22/coordinatorlayout-1.1.0/AndroidManifest.xml" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2e3d3d232f7082ccc018570fb3d76c22/coordinatorlayout-1.1.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2e3d3d232f7082ccc018570fb3d76c22/coordinatorlayout-1.1.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2783413d17b9f8713afd2ebc327ccee3/coordinatorlayout-1.1.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2783413d17b9f8713afd2ebc327ccee3/coordinatorlayout-1.1.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/2783413d17b9f8713afd2ebc327ccee3/coordinatorlayout-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

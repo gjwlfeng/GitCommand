@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/585294e5bb83cbeb3411f206cf0a4b70/recyclerview-1.1.0/annotations.zip!/" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/4b161e22b88960624deab42808c74b28/recyclerview-1.1.0/annotations.zip!/" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/debfec16880b1879f9c92a9e8e665840/recyclerview-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/585294e5bb83cbeb3411f206cf0a4b70/recyclerview-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/585294e5bb83cbeb3411f206cf0a4b70/recyclerview-1.1.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../../../DevTools/.gradle/caches/transforms-2/files-2.1/585294e5bb83cbeb3411f206cf0a4b70/recyclerview-1.1.0/res" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/4b161e22b88960624deab42808c74b28/recyclerview-1.1.0/AndroidManifest.xml" />
-      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/4b161e22b88960624deab42808c74b28/recyclerview-1.1.0/jars/classes.jar!/" />
-      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/4b161e22b88960624deab42808c74b28/recyclerview-1.1.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/debfec16880b1879f9c92a9e8e665840/recyclerview-1.1.0/res" />
+      <root url="file://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/debfec16880b1879f9c92a9e8e665840/recyclerview-1.1.0/AndroidManifest.xml" />
+      <root url="jar://D:/DevToolPackage/gradle/.gradle/caches/transforms-2/files-2.1/debfec16880b1879f9c92a9e8e665840/recyclerview-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

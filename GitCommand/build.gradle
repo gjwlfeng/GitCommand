@@ -2,6 +2,7 @@ apply plugin: 'groovy'
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
+apply plugin: 'io.github.gjwlfeng.git-command'
 
 configurations {
     myImplementation
@@ -18,7 +19,7 @@ dependencies {
     compile localGroovy()
 }
 
-version '1.0.8'
+version '1.0.9'
 group = "io.github.gjwlfeng"
 ext.artifactId = "Git-Command"
 archivesBaseName = artifactId
@@ -26,7 +27,7 @@ archivesBaseName = artifactId
 def isSnapshot = true
 
 if (isSnapshot) {
-    def fixVersion = 28
+    def fixVersion = 1
     version(version + ".${fixVersion}-SNAPSHOT")
 }
 
@@ -179,5 +180,15 @@ uploadArchives {
                 }
             }
         }
+    }
+}
+
+gitConfig {
+    //当前版本名称 ,git commit ,git tag 都会用到
+    versionName version
+    changedLogFile = project.file("logging-git.txt")
+    workDirFile = project.rootProject.projectDir
+    repositories {
+        origin {}
     }
 }
