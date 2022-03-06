@@ -69,7 +69,6 @@ class GitPullTask extends DefaultTask {
             standardOutput bos
         }
 
-
         if (exeResult.exitValue != 0) {
             throw new GradleException('Failed to get the current branch name')
         } else {

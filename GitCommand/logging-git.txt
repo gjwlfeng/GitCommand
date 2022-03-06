@@ -9,3 +9,6 @@
 
  ###
   :debug: 修改提交tag时，找不到repoName的问题
+
+ ###
+   整理build.gradle文件

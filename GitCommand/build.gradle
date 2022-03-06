@@ -1,13 +1,8 @@
 apply plugin: 'groovy'
 apply plugin: 'maven'
-apply plugin: 'maven-publish'
 apply plugin: 'signing'
 apply plugin: 'io.github.gjwlfeng.git-command'
 
-configurations {
-    myImplementation
-    implementation.extendsFrom(myImplementation)
-}
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -47,19 +42,6 @@ def myPom = [
                 url : 'http://www.apache.org/licenses/LICENSE-2.0.txt'
         ]
 ]
-task sourcesJar(type: Jar, dependsOn: classes) {
-    archiveClassifier = 'sources'
-//    from sourceSets.main.allSource
-}
-
-task javadocJar(type: Jar) {
-    classifier = 'javadoc'
-    from javadoc
-}
-
-artifacts {
-    archives javadocJar, sourcesJar
-}
 
 signing {
     sign configurations.archives
@@ -71,72 +53,6 @@ tasks.withType(Javadoc) {
     options.addStringOption('encoding', 'UTF-8')
 }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            from components.java
-            artifactId myPom.artifactId
-            artifact sourcesJar {
-                classifier "sources"
-            }
-
-            pom {
-                name = myPom.name
-                description = myPom.description
-                url = myPom.gitUrl
-                licenses {
-                    license {
-                        name = myPom.license.name
-                        url = myPom.license.url
-                    }
-                }
-
-                developers {
-                    developer {
-                        id = myPom.developer.id
-                        name = myPom.developer.name
-                        email = myPom.developer.email
-                    }
-                }
-
-                organization {
-                    name = "zf"
-                    url = myPom.gitUrl
-                }
-            }
-
-            pom.withXml {
-                NodeList nodeList = asNode().getByName("dependencies");
-                def dependenciesNode
-                if (nodeList.size() > 0) {
-                    dependenciesNode = nodeList.get(0)
-                } else {
-                    dependenciesNode = asNode().appendNode('dependencies')
-                }
-                configurations.myImplementation.allDependencies.withType(ModuleDependency) { ModuleDependency dp ->
-                    def dependencyNode = dependenciesNode.appendNode('dependency')
-                    dependencyNode.appendNode('groupId', dp.group)
-                    dependencyNode.appendNode('artifactId', dp.name)
-                    dependencyNode.appendNode('version', dp.version)                        // for exclusions
-                    if (dp.excludeRules.size() > 0) {
-                        def exclusions = dependencyNode.appendNode('exclusions')
-                        dp.excludeRules.each { ExcludeRule ex ->
-                            def exclusion = exclusions.appendNode('exclusion')
-                            exclusion.appendNode('groupId', ex.group)
-                            exclusion.appendNode('artifactId', ex.module)
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            url = new File('D:\\DevTools\\MavenRepo').toURI()
-        }
-    }
-}
 
 uploadArchives {
     repositories {
